@@ -1,0 +1,415 @@
+*{overflow-x: hidden;
+    margin: 0px;
+    font-family: "Madimi One", sans-serif;
+    cursor: pointer;
+    
+}
+:root{--green:rgb(4, 245, 4);}
+
+
+/* contact display section */
+.fix{
+    width: 98.4%;
+    position: fixed;
+    z-index: 1;
+   
+}
+@media(max-width:768px){
+    .line{display: none;}
+    
+}
+
+
+/* navigation bar */
+.navi{
+   margin-top: 70px; 
+   
+}
+@media(max-width:768px){
+    .navi{margin-top: 130px;}
+    
+}
+@media(max-width:768px){
+    .visit{font-size: 35px !important;}
+    
+}
+ 
+
+.visit{
+    font-family: "Honk", system-ui;
+    font-size: 50px;
+}
+.visit::after{
+    content: '';
+    animation: first 10s infinite;
+    transition: 1s;
+}
+@keyframes first{
+    0%{content: ' PORTBLAIR';
+   
+    }
+    20%{content: ' NEIL';}
+    40%{content: ' HAVELOCK';}
+    60%{content: ' DIGLIPUR';}
+    80%{content: ' BARATANG';}
+    100%{content: ' MAYABUNDER';}
+}
+
+/* carousal */
+.imag{
+    height:500px;
+    
+}
+@media(max-width:768px){
+    .imag{
+        height:300px;}
+        
+    }    
+
+
+/* enquiry */
+.submi{
+    margin-bottom: 20px;
+}
+@media(max-width:768px){
+    .buttonn{
+        font-size: 15px !important;
+      margin-top: 5px !important;
+      
+    
+    }
+        
+    }  
+@media(max-width:768px){
+    .child{
+        margin-top: 10px !important;
+    }
+}
+.num{
+    margin: 40px !important;
+}
+@media(max-width:768px){
+    .num{
+        margin-top: 20px !important;
+        margin-left: 0px !important;
+    }
+      
+    }
+       
+    .whats{
+        margin-left: 1405px;
+        
+        
+    }
+    @media(max-width:768px){
+        .whats{
+           margin-left: 297px !important;
+        }
+          
+        }
+     
+
+/* places you dont want to miss */
+
+   .place{
+    background-image: url(https://wallpapercave.com/wp/wp10053275.jpg);
+    background-position:bottom;
+   
+   }
+  
+
+   @media(max-width:768px){
+    .place-one{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+       
+        
+    }
+        
+    } 
+    @media(max-width:768px){
+        .coll{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           text-align:center !important;
+           margin-bottom: 10px;
+           margin-top: 10px;
+           
+            
+        }
+            
+        } 
+        .scale:hover{
+            box-shadow: 5px 5px 5px black;
+            
+        }
+       
+
+   /*package  */
+
+   #package{
+    margin-top: 50px;
+    
+   }
+   @media(max-width:768px){
+    .top{display: flex;
+    align-items: center;
+}
+}
+   
+   
+   .backgrd{
+    background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/portbliar-1.jpg);
+    width: 30%;
+    height: 370px;
+    border-radius: 10%;
+    margin: 20px;
+   
+   }
+   @media(max-width:768px){
+    .backgrd{
+        background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/portbliar-1.jpg);
+        width: 100%;
+        border-radius: 2%;
+        height: 300px;
+       
+        margin-left: 50px;
+        
+   }}
+    .back{
+    background-color: rgba(11, 11, 11, 0);
+   
+   
+   }
+   .backgrdone{
+    background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/andaman-runaway1.jpg);
+    width: 30%;
+    height: 370px;
+    border-radius: 10%;
+    margin: 20px;
+   }
+   @media(max-width:768px){
+    .backgrdone{
+        background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/andaman-runaway1.jpg);
+        width: 100%;
+        height: 300px;
+        border-radius: 2%;
+        /* margin: 15px !important; */
+        margin-left: 50px;
+        
+       }
+    }
+   .backgrdtwo{
+    background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/blissful-andaman-package1.jpg);
+    width: 30%;
+    height: 370px;
+    border-radius: 10%;
+    margin: 20px;
+   }
+   @media(max-width:768px){
+    .backgrdtwo{
+        background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/blissful-andaman-package1.jpg);
+        width: 100%;
+        height: 300px;
+        border-radius: 2%;
+        margin-left: 50px;
+       }
+
+   }
+   /* second row in package */
+
+   .bgthree{
+    background-image:url(https://www.andamantourism.org/wp-content/uploads/2017/08/family-andaman-package.jpg);
+    width: 30%;
+    height: 370px;
+    border-radius: 10%;
+    margin: 20px;
+    background-position: right;
+   }
+   @media(max-width:768px){
+    .bgthree{
+        background-image:url(https://www.andamantourism.org/wp-content/uploads/2017/08/family-andaman-package.jpg);
+        width: 100%;
+        height: 300px;
+        border-radius: 2%;
+        margin-left: 50px;
+       }
+   }
+   .bgfour{
+    background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/honeymoon-delights1.jpg);
+    width: 30%;
+    height: 370px;
+    border-radius: 10%;
+    margin: 20px;
+    background-position: bottom;
+   }
+
+   @media(max-width:768px){
+    .bgfour{
+        background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/honeymoon-delights1.jpg);
+        width: 100%;
+        height: 300px;
+        border-radius: 2%;
+        margin-left: 50px;
+        
+       }
+   }
+   .bgfive{
+    background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/romantic-getaway1.jpg);
+    width: 30%;
+    height: 370px;
+    border-radius: 10%;
+    margin: 20px;
+    background-position: right;
+   }
+   @media(max-width:768px){
+    .bgfive{
+        background-image: url(https://www.andamantourism.org/wp-content/uploads/2017/08/romantic-getaway1.jpg);
+        width: 100%;
+        height: 300px;
+        border-radius: 2%;
+        margin-left: 50px;
+       }
+   }
+
+   /* activities */
+   .acti{
+    margin: 50px !important;
+   }
+   .offer{
+    background-color: rgb(182, 13, 191);
+    color: white;
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    bottom: 100px;
+   
+   }
+   .shado{
+    box-shadow: 10px 10px 10px   var(--green);
+   }
+   @media(max-width:768px){
+    .shado{
+        box-shadow: none;
+        
+       }
+   }
+   .shado:hover{
+    box-shadow: 5px 5px 5px 5px red;
+   }
+
+
+  /* ferry booking */
+ 
+ /* filling effect */
+  .submitt{
+    margin: 20px;
+    width: 150px;
+    background-image: linear-gradient(to top,green 50%,white 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    color:black;
+    transition: .5s;
+    font-size: 25px;
+    border: 2px groove red;
+
+  }
+  .submitt:hover{
+    background-position: bottom left;
+
+  }
+  @media(max-width:768px){
+    .flipimg{
+        width: 100%;
+        height: 350px;
+        margin-left: 0px !important;
+        margin-top: 5px !important;
+    }
+  }
+
+  /* flipping card */
+  .flipimg{
+    padding-bottom: 20px;
+    margin-left: 150px;
+
+  }
+
+
+
+   
+   /* testimonial */
+.testimonial{
+    position: relative;
+    overflow-y: hidden;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    
+}
+
+.imagebx{
+    position: absolute;
+    
+    
+}
+
+
+.aleena{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px red;
+  
+}
+.contentbox{
+    opacity: 0;
+    position: absolute;
+}
+.contentbox span{
+    font-size: 20px;
+}
+.contentbox:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    border-radius: 10px;
+    padding: 15px !important;
+    transition: 1s;
+    
+}
+/* //footer */
+.foot{
+    background-image: url(https://getwallpapers.com/wallpaper/full/e/3/5/1353983-web-wallpaper-1920x1080-for-tablet.jpg);
+    padding: 15px;
+    border-radius: 5px;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+.para{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+   /* text-align: center; */
+}
+.paraa{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+   
+}
+.icon i{
+    overflow-y: hidden;
+    margin: 10px;
+}
